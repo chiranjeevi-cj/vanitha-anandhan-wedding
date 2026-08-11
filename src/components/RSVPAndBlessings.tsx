@@ -110,11 +110,11 @@ export default function RSVPAndBlessings() {
     <section
       id="rsvp_section"
       className="relative min-h-screen w-full flex flex-col justify-center items-center text-white py-24 px-6 md:px-12 overflow-hidden select-none"
-      style={{ background: '#01140e' }}
+      style={{ background: '#150103' }}
     >
       {/* Background */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, #023321, #011810, #01140d)' }} />
+        <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, #3d060c, #21030a, #120102)' }} />
         <div
           className="absolute top-0 bottom-0 left-0 right-0 opacity-[0.015] pointer-events-none"
           style={{ backgroundImage: 'radial-gradient(#dfb15b 1px, transparent 1px)', backgroundSize: '16px 16px' }}

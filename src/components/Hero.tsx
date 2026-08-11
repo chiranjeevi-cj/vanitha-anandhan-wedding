@@ -42,7 +42,7 @@ export default function Hero({ isMusicPlaying, onToggleMusic }: Props) {
   return (
     <section
       id="hero_section"
-      className="relative min-h-screen w-full flex flex-col justify-between items-center text-white overflow-hidden select-none px-6 pt-20 pb-12"
+      className="relative min-h-screen w-full flex flex-col justify-between items-center text-white overflow-hidden select-none px-6 pt-12 pb-32 md:pt-20 md:pb-12"
       style={{ background: 'linear-gradient(to bottom, #1b0305, #3d060c, #120102)' }}
     >
       {/* Background image */}
@@ -110,7 +110,7 @@ export default function Hero({ isMusicPlaying, onToggleMusic }: Props) {
       </div>
 
       {/* Main content */}
-      <div className="w-full flex-grow flex flex-col justify-center items-center text-center z-10 max-w-4xl py-6 md:py-12 mt-10">
+      <div className="w-full flex-grow flex flex-col justify-center items-center text-center z-10 max-w-4xl py-6 md:py-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}

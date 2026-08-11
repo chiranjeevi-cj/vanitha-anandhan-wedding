@@ -39,13 +39,13 @@ function TimeUnit({ label, value, delay }: { label: string; value: number; delay
       <div
         className="w-[110px] h-[110px] sm:w-[130px] sm:h-[130px] md:w-44 md:h-44 lg:w-48 lg:h-48 rounded-full p-[3px] relative flex items-center justify-center"
         style={{
-          background: 'linear-gradient(135deg, #dfb15b, #043321, #b38428)',
+          background: 'linear-gradient(135deg, #dfb15b, #3d060c, #b38428)',
           boxShadow: '0 8px 20px rgba(0,0,0,0.6)',
         }}
       >
         <div
           className="w-full h-full rounded-full flex flex-col items-center justify-center p-2 text-center relative"
-          style={{ background: 'linear-gradient(135deg, #021f14, #01140d)' }}
+          style={{ background: 'linear-gradient(135deg, #21030a, #120102)' }}
         >
           <div className="absolute inset-1.5 sm:inset-2 border border-[#dfb15b]/15 rounded-full pointer-events-none" />
           <motion.span
@@ -81,7 +81,7 @@ export default function Countdown() {
     <section
       id="countdown_section"
       className="relative min-h-screen w-full flex flex-col justify-center items-center text-white py-24 px-4 overflow-hidden select-none"
-      style={{ background: 'linear-gradient(to bottom, #01140e, #043321, #01140e)' }}
+      style={{ background: 'linear-gradient(to bottom, #1b0305, #3d060c, #120102)' }}
     >
       {/* Border frames */}
       <div className="absolute inset-4 sm:inset-6 md:inset-8 border border-[#dfb15b]/15 pointer-events-none z-10" />

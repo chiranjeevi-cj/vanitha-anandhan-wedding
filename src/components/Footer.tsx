@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer
       className="relative text-white/50 text-xs py-16 text-center select-none border-t border-[#dfb15b]/10"
-      style={{ background: '#1a0103' }}
+      style={{ background: '#01140e' }}
     >
       <div className="flex justify-center items-center gap-3 mb-8 text-[#dfb15b]/40">
         <span className="h-px w-16" style={{ background: 'linear-gradient(to right, transparent, currentColor)' }} />

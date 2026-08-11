@@ -53,11 +53,11 @@ export default function Events() {
     <section
       id="events_section"
       className="relative min-h-screen w-full flex flex-col items-center text-white py-24 px-6 md:px-12 overflow-hidden select-none"
-      style={{ background: '#150103' }}
+      style={{ background: '#01140d' }}
     >
       {/* Background */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, #120102, #210205, #140103)' }} />
+        <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, #01140e, #043321, #01140e)' }} />
         {/* Slow spinning circle */}
         <div
           className="absolute top-1/4 left-1/2 -translate-x-1/2 opacity-[0.015] border border-[#dfb15b] rounded-full flex items-center justify-center"
@@ -115,7 +115,7 @@ export default function Events() {
                 {/* Timeline dot */}
                 <span
                   className="absolute left-[17px] md:left-1/2 md:-translate-x-1/2 top-1.5 md:top-2 w-3.5 h-3.5 rounded-full border-2 z-10"
-                  style={{ background: '#dfb15b', borderColor: '#150103', boxShadow: '0 0 8px rgba(223,177,91,0.8)' }}
+                  style={{ background: '#dfb15b', borderColor: '#01140d', boxShadow: '0 0 8px rgba(223,177,91,0.8)' }}
                 />
 
                 <motion.div
