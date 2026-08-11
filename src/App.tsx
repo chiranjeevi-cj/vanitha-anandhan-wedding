@@ -75,9 +75,9 @@ export default function App() {
             className="w-full relative"
           >
             <Hero isMusicPlaying={isMusicPlaying} onToggleMusic={toggleMusic} />
+            <Events />
             <Countdown />
             <Families />
-            <Events />
             <RSVPAndBlessings />
             <Footer />
           </motion.main>

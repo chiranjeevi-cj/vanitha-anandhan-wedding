@@ -189,55 +189,6 @@ export default function Hero({ isMusicPlaying, onToggleMusic }: Props) {
             "Two hearts, one beautiful journey."
           </motion.p>
 
-          <div className="h-[1.5px] w-20 bg-gradient-to-r from-transparent via-[#dfb15b]/40 to-transparent my-6" />
-
-          {/* Save the Date + Calendar */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.2, delay: 1.5 }}
-            className="flex flex-col items-center gap-4"
-          >
-            {/* Date badge */}
-            <div
-              className="relative px-10 py-4 border-t border-b border-[#dfb15b]/50 bg-[#1b0305]/85 backdrop-blur-md flex items-center justify-center gap-5 text-[#fbf5df] font-serif-royal tracking-[0.3em] font-medium rounded-[2px]"
-              style={{ boxShadow: '0 10px 35px rgba(0,0,0,0.6)' }}
-            >
-              <span className="text-[#dfb15b] text-base select-none">✦</span>
-              <div className="flex flex-col items-center gap-0.5">
-                <span className="text-[8px] font-sans-luxury tracking-[0.5em] text-[#dfb15b]/70 uppercase">Save the Date</span>
-                <span className="text-base sm:text-lg md:text-xl tracking-[0.3em]">30 · AUGUST · 2026</span>
-              </div>
-              <span className="text-[#dfb15b] text-base select-none">✦</span>
-              {/* Corner brackets */}
-              <div className="absolute top-0 left-0 w-3 h-3 border-t-2 border-l-2 border-[#dfb15b]/70" />
-              <div className="absolute top-0 right-0 w-3 h-3 border-t-2 border-r-2 border-[#dfb15b]/70" />
-              <div className="absolute bottom-0 left-0 w-3 h-3 border-b-2 border-l-2 border-[#dfb15b]/70" />
-              <div className="absolute bottom-0 right-0 w-3 h-3 border-b-2 border-r-2 border-[#dfb15b]/70" />
-            </div>
-
-            {/* Google Calendar pill */}
-            <motion.a
-              href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Anandh+%26+Vanitha%27s+Sacred+Muhurtham&dates=20260830T043000Z%2F20260830T050000Z&details=You+are+cordially+invited+to+celebrate+the+sacred+wedding+ceremonies+of+Anandh+and+Vanitha.&location=Kumaran+Mahal+A%2FC%2C+Mariyamman+Kovil+Vasal%2C+Thiruvappur%2C+Pudukkottai%2C+Tamil+Nadu+622005&sf=true&output=xml"
-              target="_blank"
-              rel="noopener noreferrer"
-              whileHover={{ scale: 1.03, boxShadow: '0 0 15px rgba(223,177,91,0.3)' }}
-              whileTap={{ scale: 0.98 }}
-              className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full border border-[#dfb15b]/35 hover:border-[#dfb15b]/80 text-[#dfb15b] hover:text-[#fbf5df] font-sans-luxury text-[9px] sm:text-[10px] tracking-[0.18em] uppercase transition-all duration-300"
-              style={{
-                background: 'linear-gradient(to right, #2c0407, #120102)',
-                boxShadow: '0 5px 15px rgba(0,0,0,0.4)',
-              }}
-            >
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <rect x="3" y="4" width="18" height="18" rx="2" />
-                <line x1="16" y1="2" x2="16" y2="6" />
-                <line x1="8" y1="2" x2="8" y2="6" />
-                <line x1="3" y1="10" x2="21" y2="10" />
-              </svg>
-              Add to Google Calendar
-            </motion.a>
-          </motion.div>
         </motion.div>
       </div>
     </section>
