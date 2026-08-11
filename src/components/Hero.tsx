@@ -42,7 +42,7 @@ export default function Hero({ isMusicPlaying, onToggleMusic }: Props) {
   return (
     <section
       id="hero_section"
-      className="relative min-h-screen w-full flex flex-col justify-between items-center text-white overflow-hidden select-none px-6 pt-12 pb-32 md:pt-20 md:pb-12"
+      className="relative min-h-[80vh] md:min-h-screen w-full flex flex-col justify-between items-center text-white overflow-hidden select-none px-6 pt-10 pb-12 md:pt-20 md:pb-12"
       style={{ background: 'linear-gradient(to bottom, #1b0305, #3d060c, #120102)' }}
     >
       {/* Background image */}
